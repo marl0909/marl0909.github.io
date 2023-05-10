@@ -1,0 +1,9 @@
+.contacts {
+    margin-bottom: 40px;
+}
+
+.contacts__section {
+    display: flex;
+    justify-items: right;
+    align-items: center;
+}

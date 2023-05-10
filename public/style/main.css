@@ -1,0 +1,87 @@
+
+html {
+    background: radial-gradient(73.59% 8.29% at 46.91% 31.05%, rgba(255, 207, 134, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%),
+    radial-gradient(46.05% 13.27% at 7.04% 2.53%, rgba(252, 255, 125, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%),
+    radial-gradient(43.86% 17.92% at 83.73% 3.8%, rgba(79, 255, 64, 0.4) 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(33.67% 26.28% at 96.13% 11.5%, rgba(82, 0, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(55.58% 8.23% at 50% 98.07%, rgba(255, 213, 105, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%),
+    radial-gradient(41.47% 11.22% at 6.07% 98.68%, rgba(253, 102, 102, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%),
+    radial-gradient(68.62% 10.71% at 87.86% 97.17%, rgba(251, 255, 43, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%),
+    radial-gradient(52.48% 16.64% at 70.06% 66.34%, rgba(80, 255, 234, 0.65) 0%, rgba(255, 255, 255, 0.65) 100%),
+    radial-gradient(69.44% 15.97% at 33.28% 68.75%, #0027FF 0%, #FFFFFF 100%),
+    radial-gradient(73.46% 12.03% at 45.88% 30.71%, rgba(221, 0, 0, 0.2) 0%, rgba(252, 12, 12, 0.2) 0.01%, rgba(255, 246, 246, 0.2) 99.98%, rgba(255, 244, 244, 0.2) 99.99%, rgba(255, 255, 255, 0.2) 100%)
+}
+
+body {
+    position: relative;
+    max-width: 1214px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-margin-bottom: 0;
+    scroll-margin-top: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #51c48d, #6553b7, #ff883f, #603412);
+}
+
+h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+
+li {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+a {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.visible {
+    opacity: 1;
+}

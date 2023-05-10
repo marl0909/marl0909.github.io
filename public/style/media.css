@@ -1,0 +1,275 @@
+@media (max-width: 1214px) {
+    .header-content__items {
+        display: none;
+    }
+
+    .header-content__button-menu {
+        opacity: 1;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .hero-area {
+        padding: 0;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .personal-content {
+        display: flex;
+        max-width: 763px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .personal-content__info {
+        margin-right: 92px;
+    }
+
+    .header-content__items.open {
+        position: fixed;
+        margin: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        color: grey;
+        padding-left: 30px;
+        padding-top: 60px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 39px;
+
+        z-index: 1;
+        overflow-y: hidden;
+    }
+
+    .header-content__items.open li {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 967px) {
+    .personal-content__info {
+        margin-right: 0;
+        margin-top: 100px;
+        order: 1;
+    }
+
+    .hero-area {
+        padding-left: 10.3%;
+        padding-right: 10.3%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 568px){
+
+    .personal-content__info span {
+        font-size: 36px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 502px) {
+    .project-item__photo img {
+        width: 350px;
+    }
+
+    .project-item__photo {
+        width: 350px;
+    }
+
+    .project-item {
+        max-width: 350px;
+    }
+
+    .project-item__git-photo img{
+        width: 35px;
+    }
+
+    .hero-area {
+        padding: 0;
+    }
+
+    .about-me-content {
+        padding-left: 10.3%;
+        padding-right: 10.3%;
+    }
+
+    .projects-area {
+        padding-left: 10.3%;
+        padding-right: 10.3%;
+    }
+
+    .app-wrapper {
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacts {
+        padding-left: 10.3%;
+        padding-right: 10.3%;
+    }
+}
+
+@media (max-width: 440px) {
+    .icon {
+        width: 35px;
+    }
+
+    .project-item__git-photo img{
+        width: 25px;
+    }
+
+    .personal-content__photo img{
+        height: 270px;
+    }
+
+    .social-media-area__item__github {
+        width: 35px;
+    }
+
+    .project-item__photo img {
+        width: 300px;
+    }
+
+    .project-item__photo {
+        width: 300px;
+    }
+
+    .project-item {
+        max-width: 300px;
+    }
+
+    .header-content__logo {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 360px) {
+    .personal-content__photo img{
+        height: 250px;
+    }
+
+    .project-item__photo img {
+        width: 250px;
+    }
+
+    .project-item__photo {
+        width: 250px;
+    }
+
+    .project-item {
+        max-width: 250px;
+    }
+
+    .header-content__logo {
+        font-size: 30px;
+    }
+
+    .header-content__button-menu {
+    width: 40px;
+    }
+
+    .personal-content__info span {
+        font-size: 32px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    span {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 360px) {
+    .contacts__section img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .personal-content__photo img{
+        height: 220px;
+    }
+
+    .project-item__photo img {
+        width: 220px;
+    }
+
+    .project-item__photo {
+        width: 220px;
+    }
+
+    .project-item {
+        max-width: 220px;
+    }
+
+    .header-content__logo {
+        font-size: 25px;
+    }
+
+    .header-content__button-menu {
+        width: 35px;
+    }
+
+    .personal-content__info span {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+
+    .header-content{
+        height: 60px;
+    }
+
+    .hero-area {
+        margin-top: 100px;
+        margin-bottom: 400px;
+    }
+}

@@ -1,0 +1,9 @@
+.projects-area {
+    margin-bottom: 620px;
+}
+
+.projects {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}

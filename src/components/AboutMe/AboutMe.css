@@ -1,0 +1,33 @@
+.about-me-content__description {
+    max-width: 850px;
+    margin-bottom: 100px;
+}
+
+.skills-area {
+    display: flex;
+    justify-content: left;
+    min-height: 370px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.skills-area h1 {
+    color: white;
+    -webkit-text-stroke: 2px #000;
+}
+
+.hard-skills-area p {
+    margin: 5px;
+}
+
+.hard-skills-area {
+    margin-right: 20%;
+    margin-bottom: 40px;
+}
+
+.soft-skills-area {
+    display: flex;
+    flex-direction: column;
+}
+
+
