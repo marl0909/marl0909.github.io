@@ -6,7 +6,7 @@ export const ProjectBlock = (props) => {
 
     return (
         <div className={'project-item'}>
-            <a  className={'project-item__photo'} href={props.projectUrl}>
+            <a  className={'project-item__photo'} href={props.projectUrl} target={'_blank'}>
                 <img src={props.projectPhoto}/>
                 <div>
                     <span>{props.projectName}</span>
