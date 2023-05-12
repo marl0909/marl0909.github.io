@@ -11,7 +11,9 @@ export const Projects = () => {
         <div id='projects' className={'projects-area'}>
             <h1>Projects</h1>
             <div className={'projects'}>
-                {projects.map(project => <ProjectBlock projectName={project.name} projectUrl={project.url} projectPhoto={project.photo} projectDescription={project.description} />)}
+                {projects.map(project => <ProjectBlock projectName={project.name} projectUrl={project.url}
+                                                       projectPhoto={project.photo} projectDescription={project.description}
+                                                        gitUrl={project.gitUrl}/>)}
             </div>
         </div>
     )

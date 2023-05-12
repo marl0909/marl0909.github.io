@@ -12,7 +12,7 @@ export const ProjectBlock = (props) => {
                     <span>{props.projectName}</span>
                 </div>
             </a>
-            <a className={'project-item__git-photo'} href='https://github.com/'>
+            <a className={'project-item__git-photo'} href={props.gitUrl}>
                 <img src={githubIcon}/>
             </a>
             <div className={'project-item__description'}>
